@@ -1,10 +1,13 @@
 import React from "react";
+import rain from "./icons/rain.png";
 import "./App.css";
 
 function App() {
 	return (
-		<div>
-			<h1>Weather app</h1>
+		<div className="container">
+			<p>WED</p>
+			<img src={rain} />
+			<p>44°</p>
 		</div>
 	);
 }
